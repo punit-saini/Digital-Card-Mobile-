@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap');
+body {
+  margin: 0px;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #23252c;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+
+.container {
+  width: 90%;
+  margin: 0px auto;
+}
+
+/* Header */
+
+.header {
+  background: url('../public/img.jpg');
+  height: 45vh;
+  margin-top: 20%;
+  background-position-y: 5%;
+  background-position-x: 45%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+/* Main */
+.main {
+  background-color: #f5f5f5;
+  padding-bottom: 20px;
+}
+
+.info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+.info h1 {
+  color: #2b283a;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.info h4 {
+  color: #f47d27;
+  font-size: .9rem;
+  font-weight: 300;
+  padding-top: 5px;
+}
+.info p {
+  font-weight: 200;
+  font-size: .7rem;
+  color: #4a4e74;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-evenly;
+}
+.btns a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding-left: 8px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 6%;
+  font-size: .8rem;
+  border: 1px solid transparent;
+  background-color: #ffffff;
+}
+.btns a img{
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+}
+.btns .btn1 a{
+  color: #374151;
+  border: 1px solid #d1d5d8;
+}
+.btns .btn2 a {
+  background-color: #297fe5;
+  color: #ffffff;
+}
+
+.about, .interests {
+  width: 80%;
+  margin: auto;
+}
+
+.about h3, .interests h3 {
+  margin-top: 10px;
+  color: #2b283a;
+  font-size: 1rem;
+}
+
+.about p, .interests p {
+     color: #4a4e74;
+     font-size: .7rem;
+     font-weight: 300;
+     margin: 10px auto;
+}
+
+/* Footer */
+
+.footer {
+  text-align: center;
+  background-color: #d5d4d8;
+  width: 100%;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer img {
+  width: 30px;
+  height: 30px;
+  padding: 0px 5px;
+  filter: grayscale(80%);
+}
